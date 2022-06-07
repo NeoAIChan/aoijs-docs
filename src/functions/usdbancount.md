@@ -1,12 +1,14 @@
 # $banCount
 
-This function returns how many bans the current guild has
+`$banCount` This function returns how many bans the current guild has.
 
-#### Usage
+### Usage
 
 ```javascript
 bot.command({
-name: "banCount",
-code: `Bans: $banCount`
+  name: "banCount",
+  code: `
+  Bans: $banCount
+  `
+});
 ```
-
